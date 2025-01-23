@@ -21,7 +21,7 @@ function App()
    <Route path={"/login"} element={<Login users={users} setusers={setusers}/>}></Route>
    <Route path={"/signup"} element={<Signup users={users} setusers={setusers}/>}></Route>
    <Route path={"/landing"} element={<Landing/>}></Route>
-   <Route path="*" element={<div>Page Not Found</div>}></Route>
+  
    </Routes>
   </BrowserRouter>
  
